@@ -12,7 +12,7 @@ M. Danger et al., “Performance Evaluation of IRS-enhanced mmWave Connectivity 
 ## Dataset description
 Results are separated in the following file types:
 
-- "positions_[...].csv": position (, multi-user scenario) and start time (**UTC+1**) of each measurement. Positions and scenario identifiers can be referenced from the publication 
+- "positions_[...].csv": position (, multi-user scenario) and start time (**UTC+1**) of each measurement. Positions and scenario identifiers can be referenced from the publication. 
 - "STING_data_[...].csv": KPIs from distributed FR2-STING units (1 hour needs to be added to 'time' due to different time zone).
   - utilized columns: 
     - time: Timestamp (**UTC**), format example: 2024-03-27 13:57:27.867378+00:00
@@ -34,3 +34,6 @@ Results are separated in the following file types:
     - tmpEpochsExec1: Unix Timestamp (**UTC**) 
     - MO: Mapping of New Radio Cell Distributed Unit (NRCellDU), only NRCellDU=1 rows are valid
     - pmRadioServingBeamDlDistr: Counter of activity per BeamID (Index). Activity is added from timestep to timestep until rollover.
+      
+# Acknowledgement
+This work has been funded by the German Federal Ministry of Education and Research (BMBF) in the course of the 6G-ANNA project under grant no. 16KISK101 and the 6GEM Research Hub under the grant no. 16KISK038 as well as by the Ministry of Economic Affairs, Industry, Climate Action, and Energy of the State of North Rhine-Westphalia (MWIKE NRW) along with the Competence Center 5G.NRW under grant no. 005-01903-0047.
