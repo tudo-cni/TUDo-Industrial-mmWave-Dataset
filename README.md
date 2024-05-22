@@ -1,11 +1,15 @@
-# Performance Evaluation of IRS-enhanced mmWave Connectivity for 6G Industrial Networks - Dataset
+# Abstract: Performance Evaluation of IRS-enhanced mmWave Connectivity for 6G Industrial Networks
+Private networks are a key innovation in the ongoing 5G era and the anticipated 6G landscape. The utilization of mmWave spectrum shows great potential for improving reliability in mobile and mission-critical industrial applications. Despite promising advancements demonstrated in controlled labs, de- ploying mmWave networks poses technical challenges, especially in dense, metallic industrial environments. This highlights the critical need for industry stakeholders to overcome associated technical challenges, thereby ensuring that end-to-end perfor- mance meets tailored requirements. Facilitating the transition of laboratory-validated benchmarks into practical industrial environments, we deploy our STING Network Companion as a distributed KPI Monitoring and Control System in a large- scale industrial manufacturing environment. Our results confirm the robust performance of mmWave technology in large-scale industrial environments, providing reliable connectivity even in most NLOS conditions. In addition, the deployment of our passive IRS solution HELIOS demonstrates significant improve- ments through strategic placement, restoring LOS performance in obstructed locations seamlessly and therefore proving its applicability to real-world industrial applications. Our study validates the promising potential of mmWave frequencies to address challenges in realistic environments, thereby supporting its further adoption in industrial applications.
+
+# Contents of this Repository
 This repository contains raw data of measurements conducted for the joint publication of TU Dortmund, Ericsson GmbH and Fraunhofer IPT: 
 
 M. Danger et al., “Performance Evaluation of IRS-enhanced mmWave Connectivity for 6G Industrial Networks,” *2024 IEEE International Symposium on Measurement and Networking (IEEE M&N 2024)*, 2024
 
-> [!IMPORTANT]  
+> [!NOTE]  
 > If you use this dataset, please reference the publication. You can find an example bibtex file [here](TUDo_Industrial_mmWave.bib).
 
+## Dataset description
 Results are separated in the following file types:
 
 - "positions_[...].csv": position (, multi-user scenario) and start time (**UTC+1**) of each measurement. Positions and scenario identifiers can be referenced from the publication 
