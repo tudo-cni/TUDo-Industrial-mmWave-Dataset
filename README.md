@@ -6,8 +6,8 @@ This repository contains raw data of measurements conducted for the joint public
 
 M. Danger et al., “Performance Evaluation of IRS-enhanced mmWave Connectivity for 6G Industrial Networks,” *2024 IEEE International Symposium on Measurement and Networking (IEEE M&N 2024)*, 2024
 
-> [!NOTE]  
-> If you use this dataset, please reference the publication. You can find an example bibtex file [here](TUDo_Industrial_mmWave.bib).
+## Disclaimer on Dataset Usage 
+When utilizing this dataset, proper attribution to the original publication is required. Please ensure to reference the following publication in any derived works or research outputs. An example BibTeX entry for citation purposes is available [here](TUDo_Industrial_mmWave.bib).
 
 ## Dataset description
 Results are separated in the following file types:
