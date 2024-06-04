@@ -11,7 +11,7 @@ When utilizing this dataset, proper attribution to the original publication is r
 
 ## Dataset description
 Results are separated in the following file types:
-
+- "static_measurement_positions.csv": x and y coordinates of the static measurement positions in meters.
 - "positions_[...].csv": position (, multi-user scenario) and start time (**UTC+1**) of each measurement. Positions and scenario identifiers can be referenced from the publication. 
 - "STING_data_[...].csv": KPIs from distributed FR2-STING units (1 hour needs to be added to 'time' due to different time zone).
   - utilized columns: 
